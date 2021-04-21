@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/login" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/EdEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -44,7 +44,7 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -63,7 +63,7 @@
         android:importantForAutofill="no" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btSignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"

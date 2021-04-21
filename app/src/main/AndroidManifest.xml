@@ -9,6 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConstraintLayout">
+        <activity android:name=".ActivityLihatData">
+            android:parentActivityName=".Home_Activity"></activity>
+        <activity android:name=".ListViewAdapter" />
+        <activity android:name=".ClassNama" />
+        <activity android:name=".Home_Activity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ActivityFormPendaftaran"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityKedua"
+            android:label="@string/label2"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
